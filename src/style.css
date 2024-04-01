@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+    /*h1 테그 사용 전체 가 바뀜*/
+}
+#s{
+    /*#은 id class는 .임*/
+}
+*{
+    /*전체*/
+}
+/* */
+
+h6,.red,#test2{ color: rgb(240, 255, 251);}
+.first h1{
+    color: rgb(100, 26, 81);
+    /*first라는 class를 사용하는 자손중 모든 h1이
+    바뀜
+     */
+}
+.first > h1{
+    color: red;
+    /*first라는 class의 h1이라는 자식만 바꿈 */
+}
+.second>h1{
+    color: rgb(33, 137, 189);
+}
